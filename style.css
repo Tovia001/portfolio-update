@@ -1,0 +1,68 @@
+/*ELEMENT SELECTOR*/
+/*the body selector styles the entire page*/
+  
+body{
+  background-color: lightgrey; /*sets the background color to light grey.*/
+  font-family:Arial, sans-serif;  /*changes the text font.*/
+  }
+
+    /*the h1 selector styles all majn headings.*/
+  h1{
+    color:blue;  /*makes the main heading text blue.*/
+    text-align: center;  /*aligns the heading to the center.*/
+    font-size:32px;/*makes the main heading large and easy to notice.*/
+  }
+  
+  /*CLASS SELECTOR*/
+  /*the .intro selector styles elements with class="intro".*/
+ .intro{
+   color: green;/*changes the introduction text to green.*/
+   font-size: 18px; /*sets the text size to 18pixels.*/
+ }
+
+/*ID SELECTOR*/
+/*The #about selector styles the element with id="about"*/
+#about{
+  background-color:white;/*gives the about section s white background*/
+  padding:20px; /*adds 20pixels of space inside the section.*/
+}
+
+  /*styling the nav*/
+  nav{
+    display:flex; /*put the navigation links in a horizontal row by default.*/
+    justify-content:space-between; /*Creates space between the links by distributing them across the available width of the navigation container.*/
+    align-items:center; /*Aligns the links vertically in the centre of the navigation container.*/
+  }
+  
+  /*styling the nav links*/
+  nav a{
+    text-decoration:none;/*Removes the underline from the links.*/
+    color:blue;/*Makes the link text blue.*/
+    padding:10px;/*Adds space around each link, making the navigation easier to read and click.*/
+  }
+  /*styling the work section*/
+  #work{
+    padding:20px;/*adds space inside the section*/
+    margin:20px;/*adds space outside the section*/
+    border:2px solid blue;/*adds a blue border around the section*/
+  }
+  /*styling the about section*/
+  #about{
+    padding:20px;
+    margin:20px;
+    border:2px solid black;
+  }
+  /*styling the section heading*/
+  h2{
+    color:darkblue;/*gives section a dark blue color*/
+    font-size:24px;/*makes section heading smaller than the main heading.*/
+  }
+  
+  /*styling the paragraphs*/
+  p{
+    color:#333333;/*uses darkgrey text for comfortable reading*/
+    font-size: 16px;/*keeps paragraph text at a readable size.*/
+    line-height:1.6;/*adds space between lines to make paragraphs easier to read.*/
+  }
+  
+  
